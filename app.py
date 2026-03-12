@@ -1,4 +1,2 @@
-def run_command():
-    print("Hello Secure World")
-
-run_command()
+import subprocess
+subprocess.call(user_input, shell=True)
